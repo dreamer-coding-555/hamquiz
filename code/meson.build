@@ -5,7 +5,7 @@ deps = [
 dir = include_directories('.')
 code = files('app.c')
 
-executable('app',
+executable('hamquiz',
     sources: ['main.c', code],
     include_directories: dir,
     dependencies: deps,
